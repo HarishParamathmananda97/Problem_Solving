@@ -61,7 +61,7 @@ class encodingDecoding():
         return decrypted_str
     
 def main():
-    """Main function starts here"""
+    """Encryption and Decryption program"""
     wanna_continue = True
     while wanna_continue:
         text = input("Encryption or Decryption: ")
