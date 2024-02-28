@@ -11,6 +11,7 @@ def insertion_sort(arr):
             print(arr) 
 
 if __name__ == '__main__':
+
     arr = input("Enter the numbers with space: ").split(' ')
     arr = list(map(int, arr))
     # print(arr)
