@@ -18,7 +18,7 @@ print("success")
 #Time Complexity: O(n^2)
 
 #logically solved:
-found_index = {}
+found_index = {}  #HashMap
 for index, input_num in  enumerate(Input):
     val = Target - input_num
     if val in found_index:
