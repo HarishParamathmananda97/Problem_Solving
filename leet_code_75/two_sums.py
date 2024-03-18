@@ -15,7 +15,7 @@ for index in range(len(Input)):
             break
 
 print("success")
-#O(n^2)
+#Time Complexity: O(n^2)
 
 #logically solved:
 found_index = {}
@@ -28,7 +28,7 @@ for index, input_num in  enumerate(Input):
     else:
         found_index[input_num] = index
 
-#O(n)
+#Time Complexity: O(n)
 """
 Sample Input: [2,1,5,3]
 Target: 4
