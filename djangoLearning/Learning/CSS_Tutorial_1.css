@@ -1,0 +1,85 @@
+/* Commenting a line using forward slash with star on both side 
+h1{
+    color: blue;
+}
+
+li{
+    color: rgb(255, 97, 0);
+}
+
+p{
+    color: #0895a8;
+}
+
+h4{
+    color: rgba(255, 97, 0, 0.5)
+}
+
+
+body{
+    background: gray;
+}
+
+div{
+    background:  blue;
+    border-color: orange;
+    border-width: 10px;
+    border-style: double;
+}
+
+p{
+    color: yellow;
+}
+*/
+
+
+/* class- denoted with .classname
+ id - #idname
+ */
+
+.firstdiv{
+    color: blue;
+ }
+
+.seconddiv{
+    color: red;
+ }
+
+ #singledout{
+    color: green;
+    text-decoration: line-through;
+ }
+/* override every attributes
+ *{
+    color : black;
+    background-color: red;
+ } */
+
+ /* Any unordered list next to h3 will get affected */
+ /* h3 + ul {
+    border: 4px dotted purple;
+ }
+
+ /* for sentence  */
+
+ /* li a{
+    color: red;
+ } */
+ /* for attribute  
+
+ li a[href="www.google.com"]{
+    color: blue;
+    border: 5px solid orange;
+ } */
+/* overriding the default by calling particular tag's classname and assigning values */
+li{
+    color: red;
+}
+
+.topitems{
+    color: blue;
+}
+
+#two{
+    border: 3px solid black;
+}
