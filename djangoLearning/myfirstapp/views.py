@@ -75,11 +75,14 @@ def mysubmittedform(request):
 
 def myform2(request):
     if request.method == 'POST':
-        print("Im here...") 
-        mydictionary = {
+        form = FeedbackForm(request.POST)
+        if form.is_valid():
+            title = request.POST['title']
+            subject = request.POST['subject']
+            print(title, subject)
+            var = str(f"Form submitted {request.method}")
             
-        }
-        return HttpResponse(request, mydictionary)
+        return HttpResponse(var)
     elif request.method == 'GET':
         form = FeedbackForm()  # FeedbackForm(None)
         mydictionary = {
