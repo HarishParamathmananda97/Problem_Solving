@@ -79,10 +79,20 @@ def myform2(request):
         if form.is_valid():
             title = request.POST['title']
             subject = request.POST['subject']
-            print(title, subject)
-            var = str(f"Form submitted {request.method}")
-            
-        return HttpResponse(var)
+            print(f"title is :{title} and subject is :{subject}")
+            mydictionary = {
+                "form":FeedbackForm()
+            }
+
+            if  title != title.upper() and not title.isupper():
+                mydictionary["error"] = True
+                mydictionary["errormsg"] = "Title Should be in Capital"
+                return render(request, "myform2.html", context = mydictionary)
+            else:
+                mydictionary["success"] = True
+                mydictionary["successmsg"] = "Form Submitted"
+                return render(request, 'myform2.html', context = mydictionary)
+
     elif request.method == 'GET':
         form = FeedbackForm()  # FeedbackForm(None)
         mydictionary = {
