@@ -1,0 +1,91 @@
+Control Identifiers:
+
+Dialog - 'Untitled - Notepad'    (L1111, T265, R1993, B581)
+['Dialog', 'Untitled - NotepadDialog', 'Untitled - Notepad']
+child_window(title="Untitled - Notepad", control_type="Window")
+   | 
+   | Edit - 'Text Editor'    (L1119, T316, R1985, B550)
+   | ['Edit', 'Edit0', 'Edit1']
+   | child_window(title="Text Editor", auto_id="15", control_type="Edit")
+   |    | 
+   |    | ScrollBar - 'Vertical'    (L1968, T316, R1985, B550)
+   |    | ['ScrollBar', 'VerticalScrollBar', 'Vertical']
+   |    | child_window(title="Vertical", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Button - 'Line up'    (L1968, T316, R1985, B333)
+   |    |    | ['Line upButton', 'Button', 'Line up', 'Button0', 'Button1']
+   |    |    | child_window(title="Line up", auto_id="UpButton", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Line down'    (L1968, T533, R1985, B550)
+   |    |    | ['Line down', 'Line downButton', 'Button2']
+   |    |    | child_window(title="Line down", auto_id="DownButton", control_type="Button")
+   | 
+   | StatusBar - 'Status Bar'    (L1119, T550, R1985, B573)
+   | ['Status BarStatusBar', 'StatusBar', 'Status Bar']
+   | child_window(title="Status Bar", auto_id="1025", control_type="StatusBar")
+   |    | 
+   |    | Static - ''    (L1119, T552, R1555, B573)
+   |    | ['Static', 'Static0', 'Static1']
+   |    | 
+   |    | Static - '  Ln 1, Col 1'    (L1557, T552, R1695, B573)
+   |    | ['  Ln 1, Col 1', 'Static2', '  Ln 1, Col 1Static']
+   |    | child_window(title="  Ln 1, Col 1", control_type="Text")
+   |    | 
+   |    | Static - ' 100%'    (L1697, T552, R1745, B573)
+   |    | ['Static3', ' 100%', ' 100%Static']
+   |    | child_window(title=" 100%", control_type="Text")
+   |    | 
+   |    | Static - ' Windows (CRLF)'    (L1747, T552, R1865, B573)
+   |    | ['Static4', ' Windows (CRLF)', ' Windows (CRLF)Static']
+   |    | child_window(title=" Windows (CRLF)", control_type="Text")
+   |    | 
+   |    | Static - ' UTF-8'    (L1867, T552, R1969, B573)
+   |    | ['Static5', ' UTF-8', ' UTF-8Static']
+   |    | child_window(title=" UTF-8", control_type="Text")
+   | 
+   | TitleBar - ''    (L1135, T268, R1985, B296)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L1119, T273, R1141, B295)
+   |    | ['SystemMenu', 'Menu', 'System', 'System0', 'System1', 'Menu0', 'Menu1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L1119, T273, R1141, B295)
+   |    |    | ['MenuItem', 'SystemMenuItem', 'System2', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L1846, T266, R1893, B296)
+   |    | ['Button3', 'MinimizeButton', 'Minimize']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Maximize'    (L1893, T266, R1939, B296)
+   |    | ['MaximizeButton', 'Button4', 'Maximize']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L1939, T266, R1986, B296)
+   |    | ['CloseButton', 'Button5', 'Close']
+   |    | child_window(title="Close", control_type="Button")
+   | 
+   | Menu - 'Application'    (L1119, T296, R1985, B315)
+   | ['Application', 'Menu2', 'ApplicationMenu']
+   | child_window(title="Application", auto_id="MenuBar", control_type="MenuBar")
+   |    | 
+   |    | MenuItem - 'File'    (L1119, T296, R1151, B315)
+   |    | ['File', 'MenuItem2', 'FileMenuItem']
+   |    | child_window(title="File", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Edit'    (L1151, T296, R1185, B315)
+   |    | ['MenuItem3', 'EditMenuItem', 'Edit2']
+   |    | child_window(title="Edit", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Format'    (L1185, T296, R1237, B315)
+   |    | ['Format', 'MenuItem4', 'FormatMenuItem']
+   |    | child_window(title="Format", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'View'    (L1237, T296, R1276, B315)
+   |    | ['MenuItem5', 'ViewMenuItem', 'View']
+   |    | child_window(title="View", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Help'    (L1276, T296, R1315, B315)
+   |    | ['Help', 'MenuItem6', 'HelpMenuItem']
+   |    | child_window(title="Help", control_type="MenuItem")

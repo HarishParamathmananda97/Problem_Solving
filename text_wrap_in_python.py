@@ -35,8 +35,8 @@ def wrap(string, max_width):
     return docstring_text
 
 if __name__ == '__main__':
-    string, max_width = input(), int(input())
-    # string, max_width = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',4
+    # string, max_width = input(), int(input())
+    string, max_width = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',4
     result = wrap(string, max_width)
     print(result)
 
