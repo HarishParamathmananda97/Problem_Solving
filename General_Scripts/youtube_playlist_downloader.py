@@ -2,10 +2,12 @@ from pytube import Playlist, YouTube
 import os
 from tqdm import tqdm
 # URL of the YouTube playlist
-playlist_url = 'https://www.youtube.com/watch?v=MCIX5veJVic&list=PLUUFoSVr3vJe_qlVJr9ZKLBGzGrb9WrD2&pp=iAQB'
+# playlist_url = 'https://www.youtube.com/watch?v=MCIX5veJVic&list=PLUUFoSVr3vJe_qlVJr9ZKLBGzGrb9WrD2&pp=iAQB'
 # 'Eduraka_Simplilearn_Playlist_ML_Python_stuff':'https://www.youtube.com/playlist?list=PLEiEAq2VkUULYYgj13YHUWmRePqiu8Ddy','codebasics':'https://www.youtube.com/playlist?list=PLEiEAq2VkUULYYgj13YHUWmRePqiu8Ddy',
 
-playlist_list_url = {'UnitTest_Durgasir':'https://www.youtube.com/playlist?list=PLd3UqWTnYXOlb7QmXAYRGxDGf2xJ07V9N'}
+# playlist_list_url = {'UnitTest_Durgasir':'https://www.youtube.com/playlist?list=PLd3UqWTnYXOlb7QmXAYRGxDGf2xJ07V9N'}
+playlist_list_url = {'AWS_SimpliLearn':'https://www.youtube.com/playlist?list=PLEiEAq2VkUULlNtIFhEQHo8gacvme35rz'}
+
 
 # Create Playlist object
 for playlist_url in playlist_list_url:

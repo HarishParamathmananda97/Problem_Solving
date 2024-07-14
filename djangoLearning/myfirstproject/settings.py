@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myfirstapp', #My first app linked to the project
     'calculatorapp',
+    'votingapp',
 ]
 
 MIDDLEWARE = [
@@ -72,7 +73,7 @@ ROOT_URLCONF = 'myfirstproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates/calculatorapp/')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates/votingapp/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

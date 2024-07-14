@@ -21,6 +21,7 @@ urlpatterns = [
     path('', include('rootapp.urls')),
     path('home/', include('myfirstapp.urls')), #homepage urls
     path('calculatorapp/',include('calculatorapp.urls')),
+    path('votingapp', include('votingapp.urls')),
 
 ]
 
